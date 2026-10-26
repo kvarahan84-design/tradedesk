@@ -14,6 +14,7 @@ A free-data day-trading dashboard for **Windows** and **Android**: moving ticker
 - **Charts:** 1m / 5m / 15m / 1h / 1D, crosshair details, moving averages and VWAP you can switch on and off, extended-hours candles, 1/2/4 chart layouts.
 - **Technicals:** a plain-English readout, crossover signals, support/resistance, trend channel, expected-range fan, and day levels (prior-day, pre-market and opening-range highs and lows).
 - **Summary:** a rule-based "what is happening" digest across stocks, rates, energy, volatility, earnings and the latest headlines.
+- **Options:** the expected move the options market is pricing, put/call ratio, put skew, unusual flow and large trades, plus an expected-move overlay on the chart.
 - **Heatmap, Bonds and yields, Earnings, Calendar, Sentiment** views.
 - **News and X posts** from handles you choose.
 - **Alerts** for yields, X posts, cross-asset moves, calendar releases and trading halts, with snooze, quiet hours and saved history.
@@ -31,6 +32,7 @@ A free-data day-trading dashboard for **Windows** and **Android**: moving ticker
 | ![Heatmap](docs/screenshots/desktop-heatmap.png) <br> Heatmap | ![Yields](docs/screenshots/desktop-yields.png) <br> Bonds and yields |
 | ![Earnings](docs/screenshots/desktop-earnings.png) <br> Earnings | ![Calendar](docs/screenshots/desktop-calendar.png) <br> Economic calendar |
 | ![Sentiment](docs/screenshots/desktop-sentiment.png) <br> Crowd mood | ![Alerts](docs/screenshots/desktop-alerts.png) <br> Alert history |
+| ![Options](docs/screenshots/desktop-options.png) <br> Options: expected move, put/call, flow | ![Expected move](docs/screenshots/desktop-expected-move.png) <br> Expected-move lines on the chart |
 | ![Data health](docs/screenshots/desktop-data-health.png) <br> Data health | ![Light theme](docs/screenshots/desktop-light-charts.png) <br> Light theme |
 
 ### Android
@@ -38,14 +40,14 @@ A free-data day-trading dashboard for **Windows** and **Android**: moving ticker
 |---|---|---|---|
 | ![Charts](docs/screenshots/android-charts.png) | ![Markets](docs/screenshots/android-markets.png) | ![Summary](docs/screenshots/android-summary.png) | ![Yields](docs/screenshots/android-yields.png) |
 | Charts | Markets | Summary | Yields |
-| ![News and X](docs/screenshots/android-news.png) | ![Light charts](docs/screenshots/android-light-charts.png) | ![Light markets](docs/screenshots/android-light-markets.png) | |
-| News and X | Light theme | Light theme | |
+| ![News and X](docs/screenshots/android-news.png) | ![Light charts](docs/screenshots/android-light-charts.png) | ![Light markets](docs/screenshots/android-light-markets.png) | ![Options](docs/screenshots/android-options.png) |
+| News and X | Light theme | Light theme | Options |
 
 *The Android screenshots use built-in **simulated** demo data (see the yellow banner), so their prices are not real.*
 
 ## Disclaimer
 
-- **Not financial advice.** TradeDesk is a personal data viewer. Nothing in it or in these screenshots is a recommendation to buy or sell anything. Signals and the summary apply fixed rules to past data and are often wrong. Trading can lose money.
+- **Not financial advice.** TradeDesk is a personal data viewer. Nothing in it or in these screenshots is a recommendation to buy or sell anything. Signals, the summary and the options figures apply fixed rules to past or estimated data and are often wrong. Options data is an estimated feed. Trading, and options in particular, can lose money quickly.
 - **Data and alerts are not guaranteed.** Prices, news and indicators can be late, wrong or missing. Alerts can fail or arrive late. The screenshots show data from a single moment and may be inaccurate.
 - **Third parties.** Not affiliated with or endorsed by Alpaca, X, Yahoo, CNBC, TradingView, Nasdaq, StockTwits, Benzinga or any other provider. Their names and trademarks belong to their owners. Some feeds are unofficial and may break or be blocked. Reading X may conflict with X's terms.
 - **No warranty or liability.** Everything here is provided as is. To the fullest extent permitted by law, the author is not liable for any loss arising from this page or the software it shows.
