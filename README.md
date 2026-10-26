@@ -10,6 +10,9 @@ A free-data day-trading dashboard for **Windows** and **Android**: moving ticker
 
 ## What it does
 
+- **Home page:** the whole market on one screen: summary, bullish and bearish options flow, yields, calendar, earnings, commodities, sectors, crowd mood and headlines.
+- **Ticker page:** click any ticker for its Chart, Options, News and Summary tabs.
+- **Options flow:** a market-wide scan of large option trades, estimated as bullish or bearish.
 - **Movers:** Gainers, Losers, Active (ranked by dollar volume), Halts, Gaps and Sectors, with filters and a sort control.
 - **Charts:** 1m / 5m / 15m / 1h / 1D, crosshair details, moving averages and VWAP you can switch on and off, extended-hours candles, 1/2/4 chart layouts.
 - **Technicals:** a plain-English readout, crossover signals, support/resistance, trend channel, expected-range fan, and day levels (prior-day, pre-market and opening-range highs and lows).
@@ -27,24 +30,26 @@ A free-data day-trading dashboard for **Windows** and **Android**: moving ticker
 ### Windows
 | | |
 |---|---|
-| ![Charts](docs/screenshots/desktop-charts.png) <br> Charts with technicals and levels | ![Two charts](docs/screenshots/desktop-two-charts.png) <br> Two charts side by side |
+| ![Home](docs/screenshots/desktop-home.png) <br> Home: the whole market on one page | ![Home options flow](docs/screenshots/desktop-home-flow.png) <br> Home: bullish and bearish options flow |
+| ![Home calendar and earnings](docs/screenshots/desktop-home-calendar-earnings.png) <br> Home: calendar and earnings | ![Options flow](docs/screenshots/desktop-options-flow.png) <br> Options flow, market-wide |
+| ![Ticker chart](docs/screenshots/desktop-ticker-chart.png) <br> Ticker page: Chart | ![Ticker options](docs/screenshots/desktop-ticker-options.png) <br> Ticker page: Options |
+| ![Ticker news](docs/screenshots/desktop-ticker-news.png) <br> Ticker page: News | ![Ticker summary](docs/screenshots/desktop-ticker-summary.png) <br> Ticker page: Summary |
+| ![Expected move](docs/screenshots/desktop-expected-move.png) <br> Expected-move lines on the chart | ![Two charts](docs/screenshots/desktop-two-charts.png) <br> Two charts side by side |
 | ![Movers](docs/screenshots/desktop-movers-active.png) <br> Active movers with sort and filters | ![Summary](docs/screenshots/desktop-summary.png) <br> Market summary |
 | ![Heatmap](docs/screenshots/desktop-heatmap.png) <br> Heatmap | ![Yields](docs/screenshots/desktop-yields.png) <br> Bonds and yields |
 | ![Earnings](docs/screenshots/desktop-earnings.png) <br> Earnings | ![Calendar](docs/screenshots/desktop-calendar.png) <br> Economic calendar |
 | ![Sentiment](docs/screenshots/desktop-sentiment.png) <br> Crowd mood | ![Alerts](docs/screenshots/desktop-alerts.png) <br> Alert history |
-| ![Options](docs/screenshots/desktop-options.png) <br> Options: expected move, put/call, flow | ![Expected move](docs/screenshots/desktop-expected-move.png) <br> Expected-move lines on the chart |
 | ![Data health](docs/screenshots/desktop-data-health.png) <br> Data health | ![Light theme](docs/screenshots/desktop-light-charts.png) <br> Light theme |
 
 ### Android
 | | | | |
 |---|---|---|---|
-| ![Charts](docs/screenshots/android-charts.png) | ![Markets](docs/screenshots/android-markets.png) | ![Summary](docs/screenshots/android-summary.png) | ![Yields](docs/screenshots/android-yields.png) |
-| Charts | Markets | Summary | Yields |
-| ![News and X](docs/screenshots/android-news.png) | ![Light charts](docs/screenshots/android-light-charts.png) | ![Light markets](docs/screenshots/android-light-markets.png) | ![Options](docs/screenshots/android-options.png) |
-| News and X | Light theme | Light theme | Options |
+| ![Home](docs/screenshots/android-home-top.png) | ![Home flow](docs/screenshots/android-home-flow.png) | ![Ticker options](docs/screenshots/android-ticker-options.png) | ![Ticker summary](docs/screenshots/android-ticker-summary.png) |
+| Home | Home: options flow | Ticker: Options | Ticker: Summary |
+| ![Charts](docs/screenshots/android-charts.png) | ![Markets](docs/screenshots/android-markets.png) | ![Yields](docs/screenshots/android-yields.png) | ![Light charts](docs/screenshots/android-light-charts.png) |
+| Charts | Markets | Yields | Light theme |
 
-*The Android screenshots use built-in **simulated** demo data (see the yellow banner), so their prices are not real.*
-
+*Android screenshots use the built-in **simulated** demo data (shown in the yellow banner), so their prices are not real.*
 ## Disclaimer
 
 - **Not financial advice.** TradeDesk is a personal data viewer. Nothing in it or in these screenshots is a recommendation to buy or sell anything. Signals, the summary and the options figures apply fixed rules to past or estimated data and are often wrong. Options data is an estimated feed. Trading, and options in particular, can lose money quickly.

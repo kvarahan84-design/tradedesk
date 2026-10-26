@@ -14,6 +14,7 @@ TradeDesk is a personal data viewer. Nothing in it is investment, trading, tax o
 - Prices, volumes, news, yields, calendars and sentiment come from third parties, some through unofficial endpoints. They can be delayed (the free Alpaca full-market feed is 15 minutes behind), incomplete, wrong, or stop without notice.
 - The "Demo data" mode shows **simulated** prices that are not real.
 - Options data comes from Alpaca's free *indicative* feed: prices and Greeks are estimates, may differ from the real market, and open interest is not available. The expected move, put/call ratio and flow figures are calculated from that data. They describe what traded; they do not say who bought or sold, and they do not predict direction.
+- Options flow is marked bullish or bearish by comparing each trade's price with the contract's quote, which moves after the trade. It is a rough estimate. Hedges, spreads and closing trades look the same as new directional bets, so a trade marked bullish may not be.
 - Options can lose their entire value quickly and are not suitable for everyone.
 - Always check a price with your broker before you act on it.
 
