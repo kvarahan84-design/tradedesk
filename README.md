@@ -1,8 +1,8 @@
-# TradeDesk (showcase)
+# TradeDesk
 
-A free-data day-trading dashboard I built for **Windows** and **Android**: moving tickers and sectors, multi-timeframe charts with technical overlays, live news and X posts, yields, a heatmap, earnings, an economic calendar, halts, crowd mood and a plain-English market summary. Dark and light themes.
+A free-data day-trading dashboard for **Windows** and **Android**: moving tickers and sectors, multi-timeframe charts with technical overlays, live news and X posts, yields, a heatmap, earnings, an economic calendar, halts, crowd mood and a plain-English market summary. Dark and light themes.
 
-> **This is a showcase only.** The source code is private and there is **no download**: no installer, no APK, no release builds. This repository contains only the description and screenshots below.
+> **Code download is restricted for now.**
 >
 > **Not financial advice.** See the [disclaimer](#disclaimer).
 
@@ -53,4 +53,4 @@ A free-data day-trading dashboard I built for **Windows** and **Android**: movin
 
 ## License
 
-The text and images in this repository are © 2026, all rights reserved. The software is not distributed.
+© 2026. All rights reserved. The software is not currently distributed.
