@@ -12,7 +12,7 @@ A free-data day-trading dashboard for **Windows** and **Android**: moving ticker
 
 - **Home page:** the whole market on one screen: summary, bullish and bearish options flow, yields, calendar, earnings, commodities, sectors, crowd mood and headlines.
 - **Ticker page:** click any ticker for its Chart, Options, News and Summary tabs.
-- **Options flow:** a market-wide scan of large option trades, estimated as bullish or bearish.
+- **Options flow:** a market-wide scan of large option trades, estimated as bullish or bearish, with size and expiry filters and optional alerts.
 - **Movers:** Gainers, Losers, Active (ranked by dollar volume), Halts, Gaps and Sectors, with filters and a sort control.
 - **Charts:** 1m / 5m / 15m / 1h / 1D, crosshair details, moving averages and VWAP you can switch on and off, extended-hours candles, 1/2/4 chart layouts.
 - **Technicals:** a plain-English readout, crossover signals, support/resistance, trend channel, expected-range fan, and day levels (prior-day, pre-market and opening-range highs and lows).
@@ -21,8 +21,9 @@ A free-data day-trading dashboard for **Windows** and **Android**: moving ticker
 - **Heatmap, Bonds and yields, Earnings, Calendar, Sentiment** views.
 - **News and X posts** from handles you choose.
 - **Alerts** for yields, X posts, cross-asset moves, calendar releases and trading halts, with snooze, quiet hours and saved history.
-- **Data health** panel showing which feeds are working.
-- **Android** version with a phone layout and notifications.
+- **Data health** panel showing which feeds are working, and a built-in diagnostics log.
+- **Settings** grouped into tabs, a settings backup/restore, dark and light themes and a color-blind friendly palette, a customizable Home page, and a track record that scores the chart signals.
+- **Android** version with a phone layout, a tablet layout and notifications, with an optional background service so alerts keep running.
 - Built on free data sources only.
 
 ## Screenshots
@@ -40,6 +41,9 @@ A free-data day-trading dashboard for **Windows** and **Android**: moving ticker
 | ![Earnings](docs/screenshots/desktop-earnings.png) <br> Earnings | ![Calendar](docs/screenshots/desktop-calendar.png) <br> Economic calendar |
 | ![Sentiment](docs/screenshots/desktop-sentiment.png) <br> Crowd mood | ![Alerts](docs/screenshots/desktop-alerts.png) <br> Alert history |
 | ![Data health](docs/screenshots/desktop-data-health.png) <br> Data health | ![Light theme](docs/screenshots/desktop-light-charts.png) <br> Light theme |
+| ![Settings: Alerts](docs/screenshots/desktop-settings-alerts.png) <br> Settings: Alerts | ![Settings: Data and keys](docs/screenshots/desktop-settings-data.png) <br> Settings: Data and keys |
+| ![Home customize](docs/screenshots/desktop-home-customize.png) <br> Customize Home | ![Track record](docs/screenshots/desktop-signal-track-record.png) <br> Signal track record |
+| ![Backup](docs/screenshots/desktop-backup.png) <br> Back up or restore settings | ![Color-blind palette](docs/screenshots/desktop-colorblind-light.png) <br> Color-blind palette, light theme |
 
 ### Android
 | | | | |
@@ -48,6 +52,8 @@ A free-data day-trading dashboard for **Windows** and **Android**: moving ticker
 | Home | Home: options flow | Ticker: Options | Ticker: Summary |
 | ![Charts](docs/screenshots/android-charts.png) | ![Markets](docs/screenshots/android-markets.png) | ![Yields](docs/screenshots/android-yields.png) | ![Light charts](docs/screenshots/android-light-charts.png) |
 | Charts | Markets | Yields | Light theme |
+| ![Tablet](docs/screenshots/android-tablet.png) | ![Settings](docs/screenshots/android-settings.png) | | |
+| Tablet layout | Settings | | |
 
 *Android screenshots use the built-in **simulated** demo data (shown in the yellow banner), so their prices are not real.*
 ## Disclaimer

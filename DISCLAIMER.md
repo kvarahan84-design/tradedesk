@@ -18,8 +18,11 @@ TradeDesk is a personal data viewer. Nothing in it is investment, trading, tax o
 - Options can lose their entire value quickly and are not suitable for everyone.
 - Always check a price with your broker before you act on it.
 
+## The signal track record is history, not a forecast
+The track record shown beside the chart signals measures how those arrows behaved on the bars loaded for that one chart. Past behavior on a small sample says little about the future, and signals that look good in hindsight often stop working. Do not trade on it.
+
 ## Alerts are best-effort
-Alerts (X posts, yields, cross-asset moves, calendar, halts, data problems) can be late, duplicated or never arrive. The app can freeze, crash, lose its connection, or be suspended by the operating system (Android pauses apps in the background). **Do not rely on TradeDesk for anything where a missed or late alert could cost you money or cause harm.**
+Alerts (X posts, yields, cross-asset moves, calendar, halts, data problems) can be late, duplicated or never arrive. The app can freeze, crash, lose its connection, or be suspended by the operating system (Android can stop apps in the background (the optional background setting reduces this but does not guarantee it, and recent Android versions limit how long such services may run)). **Do not rely on TradeDesk for anything where a missed or late alert could cost you money or cause harm.**
 
 ## Third-party services and their terms
 TradeDesk is not affiliated with, endorsed by, or sponsored by Alpaca, X Corp. (Twitter), Yahoo, CNBC, TradingView, Nasdaq, StockTwits, Forex Factory / Fair Economy, Benzinga, or any other data provider. All names and trademarks belong to their owners.
@@ -29,7 +32,8 @@ TradeDesk is not affiliated with, endorsed by, or sponsored by Alpaca, X Corp. (
 - **X (Twitter):** reading X posts works by loading x.com pages in a hidden browser view under *your own* login. X's terms may prohibit automated reading. Your account can be rate-limited, locked or suspended. Use it only if you accept that risk, ideally with an account you can afford to lose. You can remove all handles to turn it off.
 
 ## Your keys and your data
-- You supply your own Alpaca API keys. They are stored **unencrypted** in the app's local storage on your device and are sent only to Alpaca. Use paper-trading or read-only data keys, never keys that can move money, and revoke them if your device is lost or shared.
+- You supply your own Alpaca API keys. They are stored encrypted by your device (Windows secure storage on the desktop, Android encrypted preferences on the phone) and are sent only to Alpaca. That protects them from casual reading, not from someone who has full access to your signed-in computer or phone. Use paper-trading or read-only data keys, never keys that can move money, and revoke them if your device is lost or shared.
+- A settings backup does not include your keys or X login unless you tick the box. A backup that includes keys is plain text: keep it private.
 - Favorites, settings, alert history and X login cookies are stored on your device. Protect your device.
 - The author never receives your keys or data.
 
